@@ -25,8 +25,8 @@ end
 
 def find_valid_calls(planeteer_calls)
   valid_calls = ["Earth!", "Wind!", "Fire!", "Water!", "Heart!"]
-    planeteer_calls.collect do |element|
-      element.find ("Earth!")
+    #planeteer_calls.collect do |element|
+      planeteer_calls.find ("Earth!")
         
       #else if planeteer_calls.include? ("Wind!")
        # puts "Wind!"
