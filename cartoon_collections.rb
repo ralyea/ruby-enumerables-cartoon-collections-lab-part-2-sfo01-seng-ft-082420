@@ -20,6 +20,7 @@ def long_planeteer_calls(planeteer_calls)
   x = 0
   planeteer_calls.map do |element|
     x = element.length
+    puts x > 4
   end
 end
 
