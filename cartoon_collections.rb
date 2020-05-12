@@ -25,10 +25,10 @@ end
 
 def find_valid_calls(planeteer_calls)
   valid_calls = ["Earth!", "Wind!", "Fire!", "Water!", "Heart!"]
-    planeteer_calls.map do |element|
-      if element.include? ("Earth!")
+    #planeteer_calls.map do |element|
+      if planeteer_calls.include? ("Earth!")
         puts "Earth!"
-      else if element.include? ("Wind!")
+      else if planeteer_calls.include? ("Wind!")
         puts "Wind!"
       else
         puts nil
